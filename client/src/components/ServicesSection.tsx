@@ -1,69 +1,47 @@
 import { motion } from 'framer-motion';
-import { Wifi, Zap, Camera, Network, Clock, Building } from 'lucide-react';
-import { Card } from '@/components/ui/card';
 
 const services = [
   {
-    icon: Wifi,
     title: 'Labour Camp Wi-Fi',
     category: 'Smart Connectivity',
-    description: 'Affordable, compliant, high-speed Wi-Fi with unlimited usage and 24/7 support — built for labour accommodations across the UAE.',
+    description: 'Affordable, compliant, high-speed Wi-Fi with unlimited usage and 24/7 support.',
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&h=400&fit=crop',
   },
   {
-    icon: Building,
     title: 'Staff Accommodation Wi-Fi',
     category: 'Smart Connectivity',
-    description: 'Reliable Wi-Fi solutions for staff housing with 99.9% uptime, modern equipment, and cost-effective digital access systems.',
+    description: 'Reliable Wi-Fi solutions for staff housing with 99.9% uptime.',
+    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop',
   },
   {
-    icon: Zap,
     title: 'Electrical Works',
     category: 'Smart Infrastructure',
-    description: 'HV & LV electrical installations and maintenance for commercial, industrial, and residential projects — safe, compliant, and reliable across the UAE.',
+    description: 'HV & LV electrical installations and maintenance across the UAE.',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=500&h=400&fit=crop',
   },
   {
-    icon: Camera,
     title: 'CCTV & Security',
     category: 'Smart Protection',
-    description: '24/7 surveillance and advanced access control systems to keep your people, property, and assets secure.',
+    description: '24/7 surveillance and advanced access control systems.',
+    image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&h=400&fit=crop',
   },
   {
-    icon: Network,
     title: 'Networking & Telephone',
     category: 'Smart Connectivity',
-    description: 'Structured cabling, VoIP, and telephone solutions that keep your business connected without interruptions.',
+    description: 'Structured cabling, VoIP, and telephone solutions.',
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=400&fit=crop',
   },
   {
-    icon: Clock,
     title: 'Time Attendance',
     category: 'Smart Workforce',
-    description: 'Biometric and RFID-based attendance systems that simplify workforce tracking and improve efficiency.',
+    description: 'Biometric and RFID-based attendance systems.',
+    image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=500&h=400&fit=crop',
   },
 ];
 
 export default function ServicesSection() {
-  const containerVariants = {
-    hidden: {},
-    visible: {
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-      },
-    },
-  };
-
   return (
-    <section id="services" className="py-16 md:py-24 lg:py-32 bg-background">
+    <section id="services" className="py-16 md:py-24 bg-muted/20">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -73,48 +51,54 @@ export default function ServicesSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-sm font-semibold text-primary mb-2">SERVICES</h2>
-          <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Building Smarter, Safer<br className="hidden sm:block" /> Connected Spaces
-          </h3>
+          <div className="inline-block bg-primary/10 text-primary text-sm font-semibold px-4 py-2 rounded-full mb-4">
+            Services
+          </div>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            Building Smarter, Safer<br /> Connected Spaces
+          </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             From electrical systems to smart automation and networking, Tabdeel delivers reliable, future-ready solutions in the UAE
           </p>
         </motion.div>
 
         {/* Services Grid */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
-          {services.map((service) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {services.map((service, index) => (
             <motion.div
               key={service.title}
-              variants={itemVariants}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              className="group"
               data-testid={`card-service-${service.title.toLowerCase().replace(/\s+/g, '-')}`}
             >
-              <Card className="p-8 h-full hover-elevate transition-all duration-300 hover:-translate-y-1">
-                <div className="flex flex-col h-full">
-                  <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
-                    <service.icon className="h-8 w-8 text-primary" />
+              <div className="bg-background rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+                <div className="relative h-56 overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-primary text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full">
+                      {service.category}
+                    </span>
                   </div>
-                  <span className="text-sm font-semibold text-primary mb-2">
-                    {service.category}
-                  </span>
-                  <h4 className="text-2xl font-semibold text-foreground mb-3">
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-foreground mb-2">
                     {service.title}
-                  </h4>
-                  <p className="text-muted-foreground flex-grow">
+                  </h3>
+                  <p className="text-muted-foreground">
                     {service.description}
                   </p>
                 </div>
-              </Card>
+              </div>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
