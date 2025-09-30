@@ -1,0 +1,107 @@
+<div class="elementor-element elementor-element-c790d82 e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="c790d82" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-ad44e48 e-con-full e-flex e-con e-child" data-id="ad44e48" data-element_type="container">
+				<div class="elementor-element elementor-element-fa6c238 elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="fa6c238" data-element_type="widget" data-widget_type="image.default">
+															<img decoding="async" width="640" height="640" src="https://tabdeel.io/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-2.00.00-PM-1.jpeg" class="attachment-large size-large wp-image-47" alt="tabdeel" srcset="https://tabdeel.io/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-2.00.00-PM-1.jpeg 1024w, https://tabdeel.io/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-2.00.00-PM-1-300x300.jpeg 300w, https://tabdeel.io/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-2.00.00-PM-1-150x150.jpeg 150w, https://tabdeel.io/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-2.00.00-PM-1-768x768.jpeg 768w" sizes="(max-width: 640px) 100vw, 640px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-83d299d e-con-full e-flex e-con e-child" data-id="83d299d" data-element_type="container">
+		<div class="elementor-element elementor-element-e08b29f e-grid e-con-full e-con e-child" data-id="e08b29f" data-element_type="container">
+		<div class="elementor-element elementor-element-5854c56 e-flex e-con-boxed e-con e-child" data-id="5854c56" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-69415a2 e-con-full e-flex e-con e-child" data-id="69415a2" data-element_type="container">
+				<div class="elementor-element elementor-element-57d2548 elementor-view-stacked elementor-shape-square elementor-widget elementor-widget-icon" data-id="57d2548" data-element_type="widget" data-widget_type="icon.default">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-bolt" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M296 160H180.6l42.6-129.8C227.2 15 215.7 0 200 0H56C44 0 33.8 8.9 32.2 20.8l-32 240C-1.7 275.2 9.5 288 24 288h118.7L96.6 482.5c-3.6 15.2 8 29.5 23.3 29.5 8.4 0 16.4-4.4 20.8-12l176-304c9.3-15.9-2.2-36-20.7-36z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-175b604 e-con-full e-flex e-con e-child" data-id="175b604" data-element_type="container">
+				<div class="elementor-element elementor-element-4e40fc3 elementor-widget elementor-widget-heading" data-id="4e40fc3" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Affordable Innovation</h2>				</div>
+				<div class="elementor-element elementor-element-ce74caf elementor-widget elementor-widget-text-editor" data-id="ce74caf" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Advanced solutions designed to fit your budget.</p>								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-4637a41 e-con-full e-flex e-con e-child" data-id="4637a41" data-element_type="container">
+		<div class="elementor-element elementor-element-1fcdba6 e-con-full e-flex e-con e-child" data-id="1fcdba6" data-element_type="container">
+				<div class="elementor-element elementor-element-32ab8ad elementor-view-stacked elementor-shape-square elementor-widget elementor-widget-icon" data-id="32ab8ad" data-element_type="widget" data-widget_type="icon.default">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-home" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-b724053 e-con-full e-flex e-con e-child" data-id="b724053" data-element_type="container">
+				<div class="elementor-element elementor-element-e34b14c elementor-widget elementor-widget-heading" data-id="e34b14c" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Faster Service</h2>				</div>
+				<div class="elementor-element elementor-element-52bc5e0 elementor-widget elementor-widget-text-editor" data-id="52bc5e0" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Quick response times and efficient project delivery.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6ef0b69 e-con-full e-flex e-con e-child" data-id="6ef0b69" data-element_type="container">
+		<div class="elementor-element elementor-element-a0e2933 e-con-full e-flex e-con e-child" data-id="a0e2933" data-element_type="container">
+				<div class="elementor-element elementor-element-28a809c elementor-view-stacked elementor-shape-square elementor-widget elementor-widget-icon" data-id="28a809c" data-element_type="widget" data-widget_type="icon.default">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-network-wired" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-61b0a3d e-con-full e-flex e-con e-child" data-id="61b0a3d" data-element_type="container">
+				<div class="elementor-element elementor-element-43210e1 elementor-widget elementor-widget-heading" data-id="43210e1" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Trusted Reliability</h2>				</div>
+				<div class="elementor-element elementor-element-b67f872 elementor-widget elementor-widget-text-editor" data-id="b67f872" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Consistently delivering secure, future-ready solutions.</p>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ccc3aa4 e-grid e-con-full e-con e-child" data-id="ccc3aa4" data-element_type="container">
+		<div class="elementor-element elementor-element-234ddcc e-con-full e-flex e-con e-child" data-id="234ddcc" data-element_type="container">
+		<div class="elementor-element elementor-element-18c3af6 e-con-full e-flex e-con e-child" data-id="18c3af6" data-element_type="container">
+				<div class="elementor-element elementor-element-52dc2cd elementor-view-stacked elementor-shape-square elementor-widget elementor-widget-icon" data-id="52dc2cd" data-element_type="widget" data-widget_type="icon.default">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-eye" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-688f0c4 e-con-full e-flex e-con e-child" data-id="688f0c4" data-element_type="container">
+				<div class="elementor-element elementor-element-83259d7 elementor-widget elementor-widget-heading" data-id="83259d7" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Certified Engineers</h2>				</div>
+				<div class="elementor-element elementor-element-0a9c2dc elementor-widget elementor-widget-text-editor" data-id="0a9c2dc" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>A team of qualified professionals who get it right the first time.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-107a53c e-flex e-con-boxed e-con e-child" data-id="107a53c" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-1927c49 e-con-full e-flex e-con e-child" data-id="1927c49" data-element_type="container">
+				<div class="elementor-element elementor-element-56c550b elementor-view-stacked elementor-shape-square elementor-widget elementor-widget-icon" data-id="56c550b" data-element_type="widget" data-widget_type="icon.default">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-rainbow" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M268.3 32.7C115.4 42.9 0 176.9 0 330.2V464c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320C64 186.8 180.9 80.3 317.5 97.9 430.4 112.4 512 214 512 327.8V464c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320c0-165.3-140-298.6-307.7-287.3zm-5.6 96.9C166 142 96 229.1 96 326.7V464c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320c0-74.8 64.5-134.8 140.8-127.4 66.5 6.5 115.2 66.2 115.2 133.1V464c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320c0-114.2-100.2-205.4-217.3-190.4zm6.2 96.3c-45.6 8.9-76.9 51.5-76.9 97.9V464c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320c0-17.6 14.3-32 32-32s32 14.4 32 32v144c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320c0-59.2-53.8-106-115.1-94.1z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-af0b91c e-con-full e-flex e-con e-child" data-id="af0b91c" data-element_type="container">
+				<div class="elementor-element elementor-element-d056c25 elementor-widget elementor-widget-heading" data-id="d056c25" data-element_type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">UAE-Wide Presence</h2>				</div>
+				<div class="elementor-element elementor-element-a7a36bb elementor-widget elementor-widget-text-editor" data-id="a7a36bb" data-element_type="widget" data-widget_type="text-editor.default">
+									<p>Local expertise wherever your project is located.</p>								</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-bcd3210 elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="bcd3210" data-element_type="widget" data-widget_type="button.default">
+										<a class="elementor-button elementor-button-link elementor-size-sm" href="https://tabdeel.io/solution/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-cog" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"></path></svg>			</span>
+									<span class="elementor-button-text">Explore Our Services</span>
+					</span>
+					</a>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
