@@ -24,7 +24,7 @@ export default function HeroSection() {
         />
       </div>
       
-      <div className="pt-24 relative flex items-center min-h-screen">
+      <div className="pt-16 md:pt-20 lg:pt-24 relative flex items-center min-h-[80vh] lg:min-h-screen">
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 w-full">
           <div className="max-w-2xl mx-auto lg:mx-0 text-center lg:text-left">
             {/* Content */}
@@ -34,15 +34,15 @@ export default function HeroSection() {
               transition={{ duration: 0.8 }}
               className="relative z-10"
             >
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light mb-6 leading-tight">
-                <span className="text-[#198749]">Smarter Infrastructure.</span><br />
-                <span className="text-[#198749]">Safer Communities.</span><br />
-                <span className="text-[#198749]">Stronger Connections.</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6 leading-tight">
+                <span className="text-[#198749] block">Smarter Infrastructure.</span>
+                <span className="text-[#198749] block">Safer Communities.</span>
+                <span className="text-[#198749] block">Stronger Connections.</span>
               </h1>
-              <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                 From power to protection, Tabdeel delivers the change you need — smarter, scalable, and future-ready IT & security solutions trusted across the UAE.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full sm:w-auto">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full sm:w-auto px-4 sm:px-0">
                 <Button
                   size="lg"
                   onClick={scrollToContact}
