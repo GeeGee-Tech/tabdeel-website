@@ -11,23 +11,28 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="relative min-h-screen overflow-hidden bg-gradient-to-br from-primary/5 via-background to-background">
-      {/* Background Image - Hidden on mobile */}
-      <div className="absolute inset-0 hidden lg:block pointer-events-none">
+      {/* Background Image - Full screen with opacity for mobile, original for desktop */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Mobile background image */}
+        <div className="lg:hidden absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/src/assets/TESTHERO.png)', opacity: 0.3 }}></div>
+        
+        {/* Desktop background image */}
         <img
           src="/src/assets/TESTHERO.png"
           alt="Tabdeel Hero - Smarter Infrastructure Solutions"
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 h-full w-auto object-contain"
+          className="hidden lg:block absolute right-0 top-1/2 transform -translate-y-1/2 h-full w-auto object-contain"
         />
       </div>
       
       <div className="pt-24 relative flex items-center min-h-screen">
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 w-full">
-          <div className="max-w-2xl">
-            {/* Left Content */}
+          <div className="max-w-2xl mx-auto lg:mx-0 text-center lg:text-left">
+            {/* Content */}
             <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
+              className="relative z-10"
             >
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-light mb-6 leading-tight">
                 <span className="text-[#198749]">Smarter Infrastructure.</span><br />
@@ -37,7 +42,7 @@ export default function HeroSection() {
               <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
                 From power to protection, Tabdeel delivers the change you need — smarter, scalable, and future-ready IT & security solutions trusted across the UAE.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full sm:w-auto">
                 <Button
                   size="lg"
                   onClick={scrollToContact}
