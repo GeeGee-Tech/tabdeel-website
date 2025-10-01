@@ -5,37 +5,37 @@ const industries = [
   {
     icon: Building2,
     title: 'Construction & Workforce Housing',
-    description: 'Smart solutions for worker housing & large-scale projects',
+    description: 'Smart solutions for worker housing & large-scale projects. Tabdeel delivers affordable WiFi, CCTV, and electrical systems tailored for labour camps and staff accommodations. Our solutions ensure compliance, safety, and reliable performance across the UAE.',
   },
   {
     icon: Briefcase,
     title: 'Corporate Offices',
-    description: 'Modern workplaces built on security and connectivity',
+    description: 'Modern workplaces built on security and connectivity. From smart automation and reliable networking to advanced security, we design solutions that boost productivity and protect your office environment.',
   },
   {
     icon: ShoppingBag,
     title: 'Retail & Malls',
-    description: 'Smart systems for high-traffic spaces',
+    description: 'Smart systems for high-traffic spaces. Tabdeel provides PA systems, CCTV, and networking solutions designed for large malls and retail outlets, ensuring safety and seamless communication.',
   },
   {
     icon: Home,
     title: 'Residential & Communities',
-    description: 'Smart safer living spaces',
+    description: 'Smart Safer living spaces. We bring home automation, electrical works, and surveillance systems to residences and communities, enhancing comfort and peace of mind.',
   },
   {
     icon: GraduationCap,
     title: 'Education',
-    description: 'Secure and connected learning environments',
+    description: 'Secure and connected learning environments. From CCTV and PA systems to networking and attendance tracking, we create smarter, safer, and more efficient schools and universities.',
   },
   {
     icon: Heart,
     title: 'Healthcare',
-    description: 'Reliable infrastructure for critical care facilities',
+    description: 'Reliable infrastructure for critical care facilities. Hospitals and clinics trust Tabdeel for secure IT networks, CCTV, and automation that keep healthcare environments safe and connected.',
   },
   {
     icon: Hotel,
     title: 'Hospitality',
-    description: 'Technology that enhances every guest experience',
+    description: 'Technology that enhances every guest experience. Deliver seamless stays with guest WiFi, automation, and 24/7 surveillance that ensure comfort, convenience, and safety in hotels and resorts.',
   },
 ];
 

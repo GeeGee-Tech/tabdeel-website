@@ -163,8 +163,20 @@ export default function ContactSection() {
                 </div>
               </div>
               <div>
-                <h4 className="text-lg font-semibold text-foreground mb-1">Response Time</h4>
-                <p className="text-muted-foreground">We prioritize timely responses to ensure smooth communication</p>
+                <h4 className="text-lg font-semibold text-foreground mb-1">Time Response</h4>
+                <p className="text-muted-foreground">We prioritize timely responses to ensure smooth community</p>
+              </div>
+            </div>
+
+            <div className="bg-green-50 border border-green-200 rounded-lg p-6">
+              <h4 className="text-lg font-semibold text-green-800 mb-2">Share Your Details</h4>
+              <p className="text-green-700 mb-4">Have questions about our services? Here are some of the most common queries we receive. If you need personalized assistance, we're just a message away.</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-green-600 rounded-full"></div>
+                  <span className="text-green-700 font-medium">Guided next steps</span>
+                </div>
+                <p className="text-green-600 text-sm ml-4">Clear guidance at every stage — no guesswork, just support.</p>
               </div>
             </div>
           </motion.div>

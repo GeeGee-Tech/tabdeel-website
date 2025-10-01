@@ -2,6 +2,31 @@ import { motion } from 'framer-motion';
 import { TrendingUp, Users, Zap, Clock, DollarSign, BarChart } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
+const AnimatedText = ({ text, delay = 0 }: { text: string; delay?: number }) => {
+  const letters = text.split('');
+  
+  return (
+    <span>
+      {letters.map((letter, index) => (
+        <motion.span
+          key={index}
+          initial={{ color: '#6b7280' }}
+          whileInView={{ color: '#ffffff' }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.1,
+            delay: delay + index * 0.03,
+            ease: 'easeOut'
+          }}
+          className="inline-block"
+        >
+          {letter === ' ' ? '\u00A0' : letter}
+        </motion.span>
+      ))}
+    </span>
+  );
+};
+
 const benefits = [
   {
     icon: TrendingUp,
@@ -39,20 +64,19 @@ export default function BenefitsSection() {
   return (
     <section className="py-16 md:py-24 bg-[hsl(220,13%,15%)] text-white">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            By partnering with Tabdeel, you unlock<br className="hidden md:block" /> more than just services
+            <AnimatedText text="By partnering with Tabdeel, you unlock" delay={0} />
+            <br className="hidden md:block" />
+            <AnimatedText text="more than just services" delay={1.5} />
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            You gain efficiency, reliability, and growth. Our solutions are designed to reduce costs, improve customer experience, and give you the tools to scale confidently across the UAE.
+            <AnimatedText 
+              text="you gain efficiency, reliability, and growth. Our solutions are designed to reduce costs, improve customer experience, and give you the tools to scale confidently across the UAE." 
+              delay={3.0} 
+            />
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (

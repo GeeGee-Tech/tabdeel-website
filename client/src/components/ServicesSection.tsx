@@ -4,37 +4,37 @@ const services = [
   {
     title: 'Labour Camp Wi-Fi',
     category: 'Smart Connectivity',
-    description: 'Affordable, compliant, high-speed Wi-Fi with unlimited usage and 24/7 support.',
+    description: 'Affordable, compliant, high-speed Wi-Fi with unlimited usage and 24/7 support — built for labour accommodations across the UAE.',
     image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&h=400&fit=crop',
   },
   {
     title: 'Staff Accommodation Wi-Fi',
     category: 'Smart Connectivity',
-    description: 'Reliable Wi-Fi solutions for staff housing with 99.9% uptime.',
+    description: 'Reliable Wi-Fi solutions for staff housing with 99.9% uptime, modern equipment, and cost-effective digital access systems.',
     image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=500&h=400&fit=crop',
   },
   {
     title: 'Electrical Works',
     category: 'Smart Infrastructure',
-    description: 'HV & LV electrical installations and maintenance across the UAE.',
+    description: 'HV & LV electrical installations and maintenance for commercial, industrial, and residential projects — safe, compliant, and reliable across the UAE.',
     image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=500&h=400&fit=crop',
   },
   {
     title: 'CCTV & Security',
     category: 'Smart Protection',
-    description: '24/7 surveillance and advanced access control systems.',
+    description: '24/7 surveillance and advanced access control systems to keep your people, property, and assets secure.',
     image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&h=400&fit=crop',
   },
   {
     title: 'Networking & Telephone',
     category: 'Smart Connectivity',
-    description: 'Structured cabling, VoIP, and telephone solutions.',
+    description: 'Structured cabling, VoIP, and telephone solutions that keep your business connected without interruptions.',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=400&fit=crop',
   },
   {
     title: 'Time Attendance',
     category: 'Smart Workforce',
-    description: 'Biometric and RFID-based attendance systems.',
+    description: 'Biometric and RFID-based attendance systems that simplify workforce tracking and improve efficiency.',
     image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=500&h=400&fit=crop',
   },
 ];
@@ -57,9 +57,15 @@ export default function ServicesSection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Building Smarter, Safer<br /> Connected Spaces
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
             From electrical systems to smart automation and networking, Tabdeel delivers reliable, future-ready solutions in the UAE
           </p>
+          <button
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold transition-colors"
+          >
+            BOOK A 15-MINI CALL
+          </button>
         </motion.div>
 
         {/* Services Grid */}

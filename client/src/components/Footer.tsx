@@ -21,8 +21,17 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4">Quick links</h4>
             <ul className="space-y-3">
+              <li>
+                <a
+                  href="#services"
+                  className="text-gray-300 hover:text-primary transition-colors"
+                  data-testid="link-footer-solution"
+                >
+                  Solution
+                </a>
+              </li>
               <li>
                 <a
                   href="#about"
@@ -36,9 +45,9 @@ export default function Footer() {
                 <a
                   href="#services"
                   className="text-gray-300 hover:text-primary transition-colors"
-                  data-testid="link-footer-services"
+                  data-testid="link-footer-projects"
                 >
-                  Services
+                  Projects
                 </a>
               </li>
               <li>
@@ -123,16 +132,8 @@ export default function Footer() {
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              Tabdeel © 2025 All rights reserved
+              Tabdeel © 2025 All rights reserved | Privacy Policy | Terms & Conditions
             </p>
-            <div className="flex gap-6 text-sm text-gray-400">
-              <a href="#" className="hover:text-primary transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="hover:text-primary transition-colors">
-                Terms & Conditions
-              </a>
-            </div>
           </div>
         </div>
       </div>

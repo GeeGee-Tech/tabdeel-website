@@ -31,6 +31,18 @@ const faqs = [
     question: 'What certifications do your engineers and services comply with?',
     answer: 'Our solutions follow UAE regulatory standards and international best practices. Our engineers hold certifications in low voltage (LV), high voltage (HV), networking, safety compliance, and IT infrastructure.',
   },
+  {
+    question: 'Do you provide AMC (Annual Maintenance Contracts) for IT and security systems?',
+    answer: 'Yes. We offer comprehensive AMC packages for ongoing maintenance, monitoring, and support of your IT infrastructure, CCTV systems, networking equipment, and electrical installations to ensure optimal performance year-round.',
+  },
+  {
+    question: 'How does Tabdeel help businesses reduce costs?',
+    answer: 'Our solutions are designed for efficiency and scalability. We help reduce operational costs through energy-efficient systems, preventive maintenance, reliable infrastructure that minimizes downtime, and scalable solutions that grow with your business.',
+  },
+  {
+    question: 'Can your services scale as my business grows?',
+    answer: 'Absolutely. Our solutions are built with scalability in mind. Whether you\'re expanding to new locations, adding more employees, or upgrading your infrastructure, we design systems that can easily adapt and grow with your business needs across the UAE.',
+  },
 ];
 
 export default function FAQSection() {
@@ -51,7 +63,8 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-muted-foreground">
-            Quick Answers. Clear Solutions.
+            Quick Answers. Clear Solutions.<br />
+            Looking for electrical, security, or automation solutions? Tell us about your project, and our team will respond quickly with the next steps.
           </p>
         </motion.div>
 
