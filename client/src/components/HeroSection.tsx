@@ -14,11 +14,11 @@ export default function HeroSection() {
       {/* Background Image - Full screen with opacity for mobile, original for desktop */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Mobile background image */}
-        <div className="lg:hidden absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/assets/TESTHERO.png)', opacity: 0.3 }}></div>
+        <div className="lg:hidden absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/assets/TESTHERO-removebg-preview.png)', opacity: 0.3 }}></div>
         
         {/* Desktop background image */}
         <img
-          src="/assets/TESTHERO.png"
+          src="/assets/TESTHERO-removebg-preview.png"
           alt="Tabdeel Hero - Smarter Infrastructure Solutions"
           className="hidden lg:block absolute right-0 top-1/2 transform -translate-y-1/2 h-full w-auto object-contain"
         />
