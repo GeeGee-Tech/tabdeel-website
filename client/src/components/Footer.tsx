@@ -1,9 +1,18 @@
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import footerBgImage from '../assets/footer bg.png';
 
 export default function Footer() {
   return (
-    <footer className="bg-[hsl(220,13%,15%)] text-white py-16">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+    <footer
+      className="relative text-white py-16 bg-black"
+      style={{
+        backgroundImage: `url(${footerBgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>

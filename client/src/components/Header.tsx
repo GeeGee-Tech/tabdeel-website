@@ -37,32 +37,32 @@ export default function Header() {
               Home
             </button>
             <button
-              onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
-              data-testid="link-solution"
-            >
-              Solution
-            </button>
-            <button
-              onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
-              data-testid="link-projects"
-            >
-              Projects
-            </button>
-            <button
-              onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
-              data-testid="link-blog"
-            >
-              Blog
-            </button>
-            <button
               onClick={() => scrollToSection('about')}
               className="text-gray-700 hover:text-green-600 transition-colors font-medium"
               data-testid="link-about"
             >
               About
+            </button>
+            <button
+              onClick={() => scrollToSection('services')}
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
+              data-testid="link-services"
+            >
+              Services
+            </button>
+            <button
+              onClick={() => scrollToSection('industries')}
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
+              data-testid="link-industries"
+            >
+              Industries
+            </button>
+            <button
+              onClick={() => scrollToSection('faq')}
+              className="text-gray-700 hover:text-green-600 transition-colors font-medium"
+              data-testid="link-faq"
+            >
+              FAQ
             </button>
             <button
               onClick={() => scrollToSection('contact')}
@@ -106,32 +106,32 @@ export default function Header() {
                 Home
               </button>
               <button
-                onClick={() => scrollToSection('services')}
-                className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
-                data-testid="link-mobile-solution"
-              >
-                Solution
-              </button>
-              <button
-                onClick={() => scrollToSection('services')}
-                className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
-                data-testid="link-mobile-projects"
-              >
-                Projects
-              </button>
-              <button
-                onClick={() => scrollToSection('about')}
-                className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
-                data-testid="link-mobile-blog"
-              >
-                Blog
-              </button>
-              <button
                 onClick={() => scrollToSection('about')}
                 className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
                 data-testid="link-mobile-about"
               >
                 About
+              </button>
+              <button
+                onClick={() => scrollToSection('services')}
+                className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
+                data-testid="link-mobile-services"
+              >
+                Services
+              </button>
+              <button
+                onClick={() => scrollToSection('industries')}
+                className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
+                data-testid="link-mobile-industries"
+              >
+                Industries
+              </button>
+              <button
+                onClick={() => scrollToSection('faq')}
+                className="text-left px-4 py-2 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-md transition-colors font-medium"
+                data-testid="link-mobile-faq"
+              >
+                FAQ
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
