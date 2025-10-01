@@ -56,16 +56,22 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // ALWAYS serve the app on the port specified in the environment variable PORT
-  // Other ports are firewalled. Default to 5000 if not specified.
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
-  const port = parseInt(process.env.PORT || '5000', 10);
-  server.listen({
-    port,
-    host: "0.0.0.0",
-    reusePort: true,
-  }, () => {
-    log(`serving on port ${port}`);
+  // Get port from environment variable or use a fallback
+  const port = parseInt(process.env.PORT || '3000', 10);
+  
+  // Use 0.0.0.0 for production (Docker/container support) and localhost for development
+  const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
+  
+  // Start the server
+  server.listen(port, host, () => {
+    log(`Server is running on http://${host}:${port}`);
+  }).on('error', (err: NodeJS.ErrnoException) => {
+    if (err.code === 'EADDRINUSE') {
+      log(`Port ${port} is already in use. Please use a different port by setting the PORT environment variable.`);
+      process.exit(1);
+    } else {
+      log(`Server error: ${err.message}`);
+      process.exit(1);
+    }
   });
 })();

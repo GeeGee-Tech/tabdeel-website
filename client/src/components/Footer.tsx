@@ -7,7 +7,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">TABDEEL</h3>
+            <div className="mb-4">
+              <img
+                src="/assets/Tabdeel_Logo-normal.png"
+                alt="Tabdeel Logo"
+                className="h-12 w-auto brightness-0 invert"
+              />
+            </div>
             <p className="text-gray-300 leading-relaxed">
               Discover how Tabdeel enhances efficiency, reduces operational costs and drives business growth through seamless IT and security solutions.
             </p>
